@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, useReducedMotion } from "motion/react";
-import { Mail, Phone, Clock, ShieldCheck, Send, CheckCircle2, ChevronDown, MapPin, Globe, Linkedin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, Clock, ShieldCheck, Send, CheckCircle2, ChevronDown, MapPin, Linkedin, ArrowUpRight } from "lucide-react";
 import { SiteHeader, ArrowLabel } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Button } from "@/components/ui/button";
@@ -168,24 +168,6 @@ export default function ContactPage() {
                     </div>
                   </a>
 
-                  <a
-                    href="https://leadsphere-ai.lovable.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-4 p-4 rounded-2xl bg-accent/40 border border-border hover:border-primary/40 transition-all hover:bg-accent/60 group"
-                  >
-                    <div className="w-10 h-10 rounded-xl bg-primary/20 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-white transition-colors">
-                      <Globe size={18} />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="text-[10px] font-mono uppercase font-bold text-muted-foreground">
-                        Portfolio Website
-                      </div>
-                      <div className="text-sm font-bold text-foreground truncate group-hover:text-primary transition-colors flex items-center gap-1">
-                        www.leadsphere-ai.lovable.app <ArrowUpRight size={13} className="shrink-0" />
-                      </div>
-                    </div>
-                  </a>
 
                   <div className="grid grid-cols-2 gap-3 pt-1">
                     <div className="flex items-center gap-3 p-3 rounded-xl bg-accent/30 border border-border">

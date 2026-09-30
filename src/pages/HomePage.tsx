@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
-import { ArrowDownRight, ArrowRight, ArrowUpRight, ArrowUp, BarChart3, Check, ChevronDown, CircleDot, Command, Crosshair, DatabaseZap, ExternalLink, Gauge, Globe, Layers3, Linkedin, Mail, MapPin, Menu, MousePointer2, Phone, Plus, Radar, Send, Target, TrendingUp, Workflow, X } from "lucide-react";
+import { ArrowDownRight, ArrowRight, ArrowUpRight, ArrowUp, BarChart3, Check, ChevronDown, CircleDot, Command, Crosshair, DatabaseZap, ExternalLink, Gauge, Layers3, Linkedin, Mail, MapPin, Menu, MousePointer2, Phone, Plus, Radar, Send, Target, TrendingUp, Workflow, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LeadSphereScene } from "@/components/LeadSphereScene";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -399,13 +399,6 @@ function Footer({ onContact }: { onContact: () => void }) {
                 rel="noopener noreferrer"
               >
                 <Linkedin size={14} /> LinkedIn Profile <ArrowUpRight size={12} />
-              </a>
-              <a
-                href="https://leadsphere-ai.lovable.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Globe size={14} /> Portfolio Site <ArrowUpRight size={12} />
               </a>
             </div>
           </div>

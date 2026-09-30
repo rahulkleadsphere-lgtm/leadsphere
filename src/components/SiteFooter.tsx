@@ -1,4 +1,4 @@
-import { ArrowUp, ArrowUpRight, Mail, Phone, MapPin, Globe, Linkedin } from "lucide-react";
+import { ArrowUp, ArrowUpRight, Mail, Phone, MapPin, Linkedin } from "lucide-react";
 import { Button } from "./ui/button";
 import { Logo } from "./SiteHeader";
 
@@ -64,13 +64,6 @@ export function SiteFooter({ onContact }: SiteFooterProps) {
                 rel="noopener noreferrer"
               >
                 <Linkedin size={14} /> LinkedIn Profile <ArrowUpRight size={12} />
-              </a>
-              <a
-                href="https://leadsphere-ai.lovable.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Globe size={14} /> Portfolio Site <ArrowUpRight size={12} />
               </a>
             </div>
           </div>
