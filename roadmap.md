@@ -1,0 +1,2 @@
+- [x] Build LeadSphere's responsive single-page experience and animated 3D lead sphere.
+- [x] Verify desktop/mobile presentation, navigation, and contact interaction.
